@@ -1,0 +1,22 @@
+{
+    "name": "m4rc377/Mail",
+    "description": "Use Illuminate Mail outside Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcell Aldhi Parura",
+            "email": "20342377+m4rc377@users.noreply.github.com"
+        }
+    ],
+    "require": {
+	"php": "^7.3",
+        "illuminate/config": "^8.5",
+        "illuminate/mail": "^8.5",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "m4rc377\\Mail\\": "src/"
+        }
+    }
+}

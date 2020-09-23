@@ -1,5 +1,5 @@
 {
-    "name": "m4rc377/Mail",
+    "name": "m4rc377/mail",
     "description": "Use Illuminate Mail outside Laravel.",
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "m4rc377\\Mail\\": "src/"
+            "m4rc377\\mail\\": "src/"
         }
     }
 }
